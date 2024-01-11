@@ -17,7 +17,7 @@ const useAlan = () => {
 
   useEffect(() => {
     alanBtn({
-      key: "9bb993e0016ddd2ba62b2234cc9f76312e956eca572e1d8b807a3e2338fdd0dc/stage",
+      key: "d354ca53ee5713dd123457d69e85f72c2e956eca572e1d8b807a3e2338fdd0dc/stage",
       onCommand: ({ command, mode, genres, genreOrCategory, query }) => {
         if (command === "chooseGenre") {
           const foundGenre = genres.find(
